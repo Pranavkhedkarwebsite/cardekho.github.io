@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	     <title> main page </title>
+		 <style type="text/css">
+		 body{
+		    background-color:#D1D1D1;
+		    margin:0px;
+			padding:0px;
+			height:100%;
+			width:100%;
+		 }
+		 #welcome{
+		    padding:91px;
+			margin:0px;
+			font-size:2.2rem;
+			background-image:url("./Images/bgimg.jpg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		#brand{
+		    background-image:url("./Images/bgimg.jpg");
+			padding:4px;
+			margin:0px;
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #hornavbar{
+			    list-style-type:none;
+				background-color:#98B4AA;
+				width:100%;
+				height:40px;
+				margin:0px;
+				padding:0px;	
+				word-spacing:20px;
+			}
+		 #logo{
+		        align:right;
+				right:20px;
+                font-family:MONOSPACE;
+            }			
+		 #hornavbar li{
+			    padding:10px;
+				left:20px;
+				font-size:20px;
+				display:inline-block;
+				font-family:SERIF;
+			}
+		 #hornavbar li a{	
+			    color:white;
+			    text-decoration:none;
+		    }	 
+		 #popu{
+		    padding:15px; 
+			margin:0px;
+			border-style:outset;
+			border-color:#FFCBCB;
+			background-color:#C1A3A3;
+		 }
+		 .logo{
+		    width:70px;
+			height:100px;
+			display:inline-block;
+			padding:78px;
+			margin:20px;
+		 }
+		 #Msuzu{
+		    background-image:url("./Images/maruti.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+			
+		 }
+		 #Hyu{
+		    background-image:url("./Images/hyundai.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #Tata{
+		    background-image:url("./Images/tata.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #Kia{
+		    background-image:url("./Images/kia.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #Honda{
+		    background-image:url("./Images/honda.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #Toya{
+		    background-image:url("./Images/toyoto.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #Ford{
+		    background-image:url("./Images/ford.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #Odi{
+		    background-image:url("./Images/audi.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 .info{
+		    height:100vh;
+		 }
+		 #msuzu{
+			   background-color:#EEE6CE;
+			}
+		 #hyu{
+			   background-color:#FFCBCB;
+			}	
+         #tata{
+			   background-color:#ca92c1;
+			}
+         #kia{
+			   background-color:#EA99D5;
+			}			
+		 #honda{
+			   background-color:pink;
+			}	 
+		 #toya{
+			   background-color:#F1E0AC;
+			}	
+		 #ford{
+			   background-color:#98B4AA;
+			}
+         #odi{
+			   background-color:grey;
+			}
+         #info{
+			   background-color:rgb(156, 190, 44);
+			}	
+	   /* Code for maruti suzuki cars */
+		.maruti{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:red;
+		 }
+		 #wagonr{
+		    background-image:url("./Images/wagnor.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #swift{
+		    background-image:url("./Images/swift.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #ertiga{
+		    background-image:url("./Images/ertiga.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #celerio{
+		    background-image:url("./Images/celerio.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #baleno{
+		    background-image:url("./Images/baleno.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #breeza{
+		    background-image:url("./Images/breeza.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		/* Code for hyundai cars */
+		 .hyundai{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:#FFBC80;
+		 }
+		 #creta{
+		    background-image:url("./Images/creta.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #i10{
+		    background-image:url("./Images/i10.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #i20{
+		    background-image:url("./Images/i20.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #santro{
+		    background-image:url("./Images/santro.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #venue{
+		    background-image:url("./Images/venue.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #verna{
+		    background-image:url("./Images/verna.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 /* Code for tata cars */
+		 .ta{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:#D3ECA7;
+		 }
+		 #nexon{
+		    background-image:url("./Images/nexon.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #tiago{
+		    background-image:url("./Images/tiago.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #altroz{
+		    background-image:url("./Images/altroz.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #safari{
+		    background-image:url("./Images/safari.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #tigor{
+		    background-image:url("./Images/tigor.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #harrier{
+		    background-image:url("./Images/harrier.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 /* Code for kia cars */
+		 .ki{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:#F2C9E1;
+		 }
+		 #seltos{
+		    background-image:url("./Images/seltos.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #sonet{
+		    background-image:url("./Images/sonet.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #carnival{
+		    background-image:url("./Images/carnival.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #sportage{
+		    background-image:url("./Images/sportage.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #carens{
+		    background-image:url("./Images/carens.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #upcoming{
+		    background-image:url("./Images/upcoming.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 /* Code for honda cars */
+		 .hon{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:#90E0EF;
+		 }
+		 #accord{
+		    background-image:url("./Images/accord.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #amaze{
+		    background-image:url("./Images/amaze.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #city{
+		    background-image:url("./Images/city.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #civic{
+		    background-image:url("./Images/civic.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #jazz{
+		    background-image:url("./Images/jazz.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #wr-v{
+		    background-image:url("./Images/wr-v.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 /* Code for toyoto cars */
+		 .toyoto{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:#FFBED8;
+		 }
+		 #carry{
+		    background-image:url("./Images/carry.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #cruiser{
+		    background-image:url("./Images/cruiser.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #fortuner{
+		    background-image:url("./Images/fortuner.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #glanza{
+		    background-image:url("./Images/glanza.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #innova{
+		    background-image:url("./Images/innova.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #vellfire{
+		    background-image:url("./Images/vellfire.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 /* Code for ford cars */
+		 .fo{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:#C1F4C5;
+		 }
+		 #aspire{
+		    background-image:url("./Images/aspire.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #classic{
+		    background-image:url("./Images/classic.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #ecosport{
+		    background-image:url("./Images/ecosport.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #endeavour{
+		    background-image:url("./Images/endeavour.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #fiesta{
+		    background-image:url("./Images/fiesta.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #figo{
+		    background-image:url("./Images/figo.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 /* Code for audi cars */
+		 .od{
+		    width:205px;
+			height:100px;
+			display:inline-block;
+			padding:54px;
+			margin:20px;
+			border-radius:20px;
+			background-color:#CC9544;
+		 }
+		 #a4{
+		    background-image:url("./Images/a4.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #a6{
+		    background-image:url("./Images/a6.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #q2{
+		    background-image:url("./Images/q2.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #q3{
+		    background-image:url("./Images/q3.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #q7{
+		    background-image:url("./Images/q7.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+		 #q8{
+		    background-image:url("./Images/q8.jpeg");
+			background-repeat:no-repeat;
+			background-position:center;
+			background-size:cover;
+		 }
+         </style>
+	 </head>
+    <body>
+	 
+	   <ul id="hornavbar">
+	      <li id="home"> <a href="#popu"> Home </a> </li>
+		  <li id="contact"> <a href="#info"> Contact Us </a> </li>
+		  <li id="logo"> Car Dekho.com </li> </ul>
+	   <div id="welcome">
+       <h1 align="center"> 🙏🏻 Welcome to our page 🙏🏻 </h1>	</div>
+       <div id="brand">
+	   <h1 align="center"> Select your car brand and see your car prices 🚗</h1> </div>
+       <h2 id="popu"> Some popular brands available here... </h2>
+	   <a href="#msuzu"> <div id="Msuzu" class="logo">  </div> </a> 
+	   <a href="#hyu"> <div id="Hyu" class="logo">  </div> </a>
+	   <a href="#tata"> <div id="Tata" class="logo">  </div> </a>
+	   <a href="#kia"> <div id="Kia" class="logo">  </div> </a>
+	   <a href="#honda"> <div id="Honda" class="logo">  </div> </a>
+	   <a href="#toya"> <div id="Toya" class="logo">  </div> </a>
+	   <a href="#ford"> <div id="Ford" class="logo">  </div> </a>
+	   <a href="#odi"> <div id="Odi" class="logo">  </div> </a>
+	   <div id="msuzu" class="info"> 
+	        <a href="./maruti/wagnor/wainfo.html"> <div id="wagonr" class="maruti">  </div> </a>
+	        <a href="./maruti/swift/swinfo.html"> <div id="swift" class="maruti">  </div> </a>
+	        <a href="./maruti/ertigs/erinfo.html"> <div id="ertiga" class="maruti">  </div> </a>
+	        <a href="./maruti/celerio/ceinfo.html"> <div id="celerio" class="maruti">  </div> </a>
+	        <a href="./maruti/baleno/bainfo.html"> <div id="baleno" class="maruti">  </div> </a>
+	        <a href="./maruti/breeza/brinfo.html"> <div id="breeza" class="maruti">  </div> </a>
+	   </div>
+	   <div id="hyu" class="info"> 
+	        <div id="creta" class="hyundai">  </div>
+			<div id="i10" class="hyundai">  </div>
+	        <div id="i20" class="hyundai">  </div>
+			<div id="santro" class="hyundai">  </div>
+			<div id="venue" class="hyundai">  </div>
+			<div id="verna" class="hyundai">  </div> </div>
+	   <div id="tata" class="info"> 
+	        <div id="nexon" class="ta">  </div>
+			<div id="tiago" class="ta">  </div>
+			<div id="altroz" class="ta">  </div>
+			<div id="safari" class="ta">  </div>
+			<div id="tigor" class="ta">  </div>
+			<div id="harrier" class="ta">  </div>  </div>
+	   <div id="kia" class="info">
+	        <div id="seltos" class="ki">  </div>
+			<div id="sonet" class="ki">  </div>
+			<div id="carnival" class="ki">  </div>
+			<div id="sportage" class="ki">  </div>
+			<div id="carens" class="ki">  </div>
+			<div id="upcoming" class="ki">  </div> </div>
+	   <div id="honda" class="info">
+            <div id="accord" class="hon">  </div>
+			<div id="amaze" class="hon">  </div>
+			<div id="city" class="hon">  </div>
+			<div id="civic" class="hon">  </div>
+			<div id="jazz" class="hon">  </div>
+			<div id="wr-v" class="hon">  </div> </div>
+	   <div id="toya" class="info"> 
+	        <div id="carry" class="toyoto">  </div>
+			<div id="cruiser" class="toyoto">  </div>
+			<div id="fortuner" class="toyoto">  </div>
+			<div id="glanza" class="toyoto">  </div>
+			<div id="innova" class="toyoto">  </div>
+			<div id="vellfire" class="toyoto">  </div>  </div>
+	   <div id="ford" class="info"> 
+	        <div id="aspire" class="fo">  </div>
+			<div id="classic" class="fo">  </div>
+			<div id="ecosport" class="fo">  </div>
+			<div id="endeavour" class="fo">  </div>
+			<div id="fiesta" class="fo">  </div>
+			<div id="figo" class="fo">  </div>  </div>
+	   <div id="odi" class="info"> 
+	        <div id="a4" class="od">  </div>
+			<div id="a6" class="od">  </div>
+			<div id="q2" class="od">  </div>
+			<div id="q3" class="od">  </div>
+			<div id="q7" class="od">  </div>
+			<div id="q8" class="od">  </div> </div>
+	   <div id="info" class="info"> </div>
+	 </body>
+</html>
